@@ -42,6 +42,8 @@ To access the storage go to: `http://<server-local-ip-addr>:5000/`
 
 To print help information: `nerdstorage --help`
 
+For docker, ``` docker run -d --name nerd -p 5000:5000 -v /home/ubuntu/Nerd-Storage/hash.txt:/opt/Nerd-Storage/src/NERD/hash/hash.txt -v /home/ubuntu/Nerd-Storage/config.py:/opt/Nerd-Storage/src/NERD/config.py nerd-storage-docker ```
+
 ## Configuration
 
 1. Run `hash.py` to set the login password.
